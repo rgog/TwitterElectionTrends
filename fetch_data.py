@@ -6,11 +6,12 @@ dataset_foler = "datasets"
 file_name = ""
 file_ext = ".csv"
 
-start_date = "2020-02-06"
-end_date = "2020-02-08"
+start_date = "2020-02-08"
+end_date = "2020-02-09"
 language = "en"
 emoji = "unicode"
 maxtweets = 100000
+query = "SinnFéin"
 
 # creating new DF everytime this program is run
 # to avoid repeat of data if the df is being appended
@@ -31,7 +32,7 @@ def receiveBuffer(tweets):
             t.permalink], index=df.columns)
         df = df.append(data, ignore_index=True)
 
-query = input("Enter Search Query: ")
+#query = input("Enter Search Query: ")
 try:
     tweetCriteria = got.manager.TweetCriteria().setQuerySearch(query)\
                                                 .setSince(start_date)\
