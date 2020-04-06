@@ -6,12 +6,12 @@ dataset_foler = "datasets"
 file_name = ""
 file_ext = ".csv"
 
-start_date = "2020-02-08"
-end_date = "2020-02-09"
+start_date = "2019-12-08"
+end_date = "2019-12-15"
 language = "en"
 emoji = "unicode"
-maxtweets = 100000
-query = "SinnFéin"
+maxtweets = 1000000
+query = "MaryLouMcDonald"
 
 # creating new DF everytime this program is run
 # to avoid repeat of data if the df is being appended
