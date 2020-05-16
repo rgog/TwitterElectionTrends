@@ -8,5 +8,3 @@ Twitter Sentiment Analysis
 4. install the required packages for the game to run using: `pip install -r requirements.txt`
 5. run the code: `python file_name.py`
 6. make sure to `deactivate` once your done.
-
-For further info check https://github.com/mukeshmk/twitter-sentiment-analysis when it's made public.
